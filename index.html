@@ -1,73 +1,70 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Favorite Cake</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Cake</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="./script.js"></script>
+  </head>
 
-</head>
+  <body>
+    <header>
+      <img src="images/myfavlogo.png" alt="My Favorite Cake" id="logo"> <br>
+      <nav>
+        <div class="dropdown">
+          <a class="dropbtn">productos</a>
+          <div class="dropdown-content">
+            <a href="sites/productos.html">Tartas</a>
+            <a href="sites/productos.html">Tortas</a>
+            <a href="sites/productos.html">Petit fours</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a class="dropbtn">Combos</a>
+          <div class="dropdown-content">
+            <a href="#">Cumpleños</a>
+            <a href="#">Bodas</a>
+            <a href="#">Reuniones</a>
+          </div>
+        </div>
 
-<body>
-  <header class="sociales">
-  <img src="/images/myfavlogo.png" alt="My Favorite Cake">
-<!--Menú social-->
-  <section class="menu-social"></section>
-  <div class="toggle">
-    <nav id="social-nav" class="sociales">
-      <a class="link-item" href="https://www.facebook.com" target="_blanck" rel="noopener norreferrer"><img src="/images/logo-facebook.png" alt="Facebook" class="logo"></a>
-      <a class="link-item" href="https://www.instagram.com" target="_blanck" rel="noopener norreferrer"><img src="/images/logo-instagram.png" alt="Instagram" class="logo"></a>
-      <a class="link-item" href="tel:"62859228313432 target="_blanck" rel="noopener norreferrer"><img src="/images/logo-whatsapp.png" alt="Whatsapp"class="logo"></a>
+        <div class="dropdown">
+          <a class="dropbtn">Sobre nosotros</a>
+            <div class="dropdown-content">
+              <a href="#">Historia</a>
+              <a href="#">Visión y valores</a>
+              <a href="#">Nuestras redes</a>
+            </div>
+          </div>
+        <div class="dropdown">
+          <a class="dropbtn">Contacto</a>
+          <div class="dropdown-content">
+            <a href="#">Formulario</a> <!--Agregar formulario desde scripts.js-->
+            <a class="link-item" href="https://www.facebook.com" target="_blanck" rel="noopener norreferrer"><img src="images/logo-facebook.png" alt="Facebook" class="sociales"></a>
+            <a class="link-item" href="https://www.instagram.com" target="_blanck" rel="noopener norreferrer"><img src="images/logo-instagram.png" alt="Instagram" class="sociales"></a>
+            <a class="link-item" href="tel:"62859228313432 target="_blanck" rel="noopener norreferrer"><img src="images/logo-whatsapp.png" alt="Whatsapp"class="sociales"></a>
+          </div>
+        </div> 
     </nav>
-  </div>
-<!--Menú de oferta-->
-  <section class="menu-oferta"></section>
-  <div class="toggle">
-  <nav>
-    <ul>
-      <li><a href="sites/productos.html" id="nav-oferta" target="_blanck" rel="noopener norreferrer" alt="Nuestros productos" class="dropdown" class="oferta">Nuestros productos</a></li>       <a href="sites/combos.html" id="nav-oferta" target="_blanck" rel="noopener norreferrer" alt="Nuestros combos" class="oferta"></a>
-      <li><a href="/sites/combos.html" id="nav-oferta" target="_blanck" rel="noopener norreferrer" alt="Nuestros combos" class="dropdown" class="oferta">Nuestros combos</a></li>
-      <li><a href="sites/nosotros.html" id="nav-oferta"  target="_blanck" rel="noopener norreferrer" alt="Sobre nosotros" class="dropdown" class="oferta">Sobre nosotros</a>
-      <li><a href="sites/contacto.html" id="nav-oferta" target="_blanck" rel="noopener norreferrer" alt="Contacto" class="dropdown"class="oferta">Contacto</a>
-    </ul>
-    </nav>
-  </div>
-
-  
-    
-
-
-
-
-  <button id="button-menu" class="button-menu">
-    <span></span>
-    <span></span>
-    <span></span>
-  </button>
-  
-</header class="sociales">
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </header>
+  <br>
+  <br>
+  <br>
+  <!--         Espacio visual para ver en desarrollo          -->
+  <!-- NO TE OLVIDES DE BORRAR TODOS LOS BR SI NO HACEN FALTA -->
+  <br>
+  <br>
+  <br>
 
     <footer>
         <p>Licencia CC0 Dominio Público</p>
     </footer>
-</body>
+  </body>
 </html>
