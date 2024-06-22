@@ -24,7 +24,7 @@ nav{
   text-align: center;
   padding-top: 2%; padding-bottom: 2%;
   height: 100%;
-  background-color: orange;
+  background-color:lavenderblush;
 }
 
 .link-item {
@@ -35,8 +35,8 @@ nav{
 }
  /* Aplicar estilo al botón desplegable */
  .dropbtn {
-  background-color: #4CAF50;
-  color: white;
+  background-color: mistyrose;
+  color: black;
   padding: 16px;
   border: none;
   cursor: pointer;
@@ -80,7 +80,7 @@ nav{
 
 /* Cambiar el color de fondo del botón cuando se muestra el contenido */
 .dropdown:hover, .dropbtn:hover {
-  background-color: #3e8e41;
+  background-color: lightsalmon;
 }
 
 /* Trabajo previo de alicia: */
